@@ -142,7 +142,14 @@ function compareTypes() {}
  *  flipSign(50);
  *  //> -50
  */
-function flipSign() {}
+function flipSign() {
+// if (num >= 0) {
+//   return num * -1
+// }if (num < 0) {
+//   let result = num * -1
+//   return result
+// }
+}
 
 /**
  * joinStringsWithSpaces()
@@ -162,7 +169,9 @@ function flipSign() {}
  *  joinStringsWithSpaces("left", "right", "up", "down", "away");
  *  //> "left right up down away"
  */
-function joinStringsWithSpaces() {}
+function joinStringsWithSpaces() {
+
+}
 
 /**
  * getFirstAndLastCharacter()
@@ -179,7 +188,10 @@ function joinStringsWithSpaces() {}
  *  getFirstAndLastCharacter("upwards");
  *  //> "us"
  */
-function getFirstAndLastCharacter() {}
+function getFirstAndLastCharacter(str) {
+return  str[0] + str[str.length -1]
+  }
+  
 
 // Do not change the code below.
 module.exports = {
