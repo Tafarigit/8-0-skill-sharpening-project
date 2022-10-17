@@ -15,11 +15,11 @@
  *  //> false
  */
 function isEqual(a, b) {
-  if (a === b) {
-    return true;
-  }else {
-    return false;
-  }
+if (a === b) {
+  return true;
+}else {
+  return false;
+}
 }
 /**
  * findLarger()
@@ -34,12 +34,7 @@ function isEqual(a, b) {
  *  //> 19
  */
 function findLarger(a, b) {
-  if (a > b) {
-    return a;
 
-  }if (b > a) {
-    return b;
-  }
 }
 
 /**
@@ -58,13 +53,7 @@ function findLarger(a, b) {
  *  //> "tie"
  */
 function findLargerOrTie(a, b) {
-  if (a > b) {
-    return a;
-  }if (b > a) {
-    return b;
-  }else {
-    return "tie"
-  }
+
 }
 
 /**
@@ -86,13 +75,7 @@ function findLargerOrTie(a, b) {
  *  //> "Positive"
  */
 function positiveNegativeOrZero(a) {
-  if (a > 0) {
-    return "Positive";
-  }if (a < 0) {
-    return "Negative";
-  }else {
-    return "Zero";
-  }
+
 }
 
 /**
@@ -115,15 +98,7 @@ function positiveNegativeOrZero(a) {
  *  //> "Hello World"
  */
 function aroundTheWorldGreeting(language) {
-  if (language === "german") {
-    return "Hallo Welt";
-  }if (language === "spanish") {
-    return "Hola Mundo";
-  }if (language === "english") {
-    return "Hello World";
-  }if (!language){
-    return "Hello World";
-  }
+ 
 }
 
 /**
@@ -167,17 +142,7 @@ function aroundTheWorldGreetingWithSwitch(language) {}
  *  //> "A"
  */
 function calculateLetterGrade(grade) {
-  if (grade >= 90) {
-    return "A";
-  }if (grade >= 80 && grade < 90) {
-    return "B";
-  }if (grade >= 70 && grade < 80) {
-    return "C";
-  }if (grade >= 60 && grade < 70) {
-    return "D"
-  }else if (grade < 60) {
-    return "F";
-  }
+
 }
 
 /**
@@ -197,11 +162,7 @@ function calculateLetterGrade(grade) {
  *  //> "1 pig"
  */
 function animalCounts(animal, numberOfAnimals) {
-  if (numberOfAnimals === 1) {
-    return numberOfAnimals + " " + animal;
-  }if (numberOfAnimals > 1) {
-    return numberOfAnimals + " " + animal + "s";
-  }
+
 }
 
 /**
@@ -220,12 +181,7 @@ function animalCounts(animal, numberOfAnimals) {
  *  //> "Even"
  */
 function evenOrOdd(a) {
-  if (a % 2 === 0) {
-    return "Even";
-
-  }else {
-    return "Odd";
-  }
+ 
 }
 
 /**

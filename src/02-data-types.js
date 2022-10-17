@@ -144,6 +144,11 @@ function isOdd(num) {
  *  //> false
  */
 function isTruthy(val) {
+if(val) {
+  return true;
+}else {
+  return false;
+}
 
 }
 /**
@@ -161,7 +166,11 @@ function isTruthy(val) {
  *  //> false
  */
 function isFalsy(val) {
-
+if (val) {
+ return false
+}else {
+  return true
+}
 }
 
 // Do not change the code below.
