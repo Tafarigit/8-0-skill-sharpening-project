@@ -145,8 +145,9 @@ function removeElementFromFrontOfArray(array) {
  *  getMiddleElement([ 10, null, "30" ]);
  *  //> null
  */
-function getMiddleElement(array) {}
-
+function getMiddleElement(array) {
+ 
+}
 // Do not change any code below this line.
 module.exports = {
   createEmptyArray,
